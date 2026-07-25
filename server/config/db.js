@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { MONGO_DB_URI } = require('./index');
+const { MONGO_URI } = require('./index');
 
 const connectDB = async () => {
   try {
